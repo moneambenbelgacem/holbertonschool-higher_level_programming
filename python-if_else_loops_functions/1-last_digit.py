@@ -8,3 +8,5 @@ elif ld > 5:
     print("Last digit of {} is {:d} and is greater than 5".format(number,int(ld)))
 elif ld == 0:
     print("Last digit of {} is {:d} and is 0".format(number,int(ld)))
+elif number < 0:
+    print("Last digit of {} is {:d} and is 0".format(number,int(ld -10)))
