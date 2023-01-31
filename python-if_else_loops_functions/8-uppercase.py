@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def uppercase(str):
-    return(str.swapcase())
+    print("{}".format(str.swapcase()))
