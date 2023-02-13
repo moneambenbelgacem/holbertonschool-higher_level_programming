@@ -4,10 +4,10 @@
 
 def add_integer(a, b=98):
     """add two integer"""
-    if not(isinstance(a, int) or isinstance (a, float)):
-        raise TypeError ("a must be an integer")
-    elif not(isinstance(b, float) or isinstance (b, int)):
-        raise TypeError ("b must be an integer")
+    if not(isinstance(a, int) or isinstance(a, float)):
+        raise TypeError("a must be an integer")
+    elif not(isinstance(b, float) or isinstance(b, int)):
+        raise TypeError("b must be an integer")
     elif isinstance(a, float):
         a = int(a)
     elif isinstance(b, float):
