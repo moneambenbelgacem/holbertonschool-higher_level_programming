@@ -11,6 +11,5 @@ def add_integer(a, b=98):
     elif isinstance(a, float):
         a = int(a)
     elif isinstance(b, float):
-        b = int(b)
-    else: 
-        return a + b
+        b = int(b) 
+    return a + b
