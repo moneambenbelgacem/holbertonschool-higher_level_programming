@@ -12,7 +12,7 @@ Import module:
 
 Simple using:
     >>> say_my_name("moneam", "ben belgacem")
-    My name is Thamer Ayachi
+    My name is moneam ben belgacem
 
     >>> say_my_name("Hochlef")
     My name is Hochlef 
