@@ -3,6 +3,7 @@
 
 
 def text_indentation(text):
+    """function text indent"""
     if not isinstance(text, str):
         raise TypeError("text must be a string")
     new_text = ""
@@ -14,6 +15,6 @@ def text_indentation(text):
     lines = new_text.split("\n")
     for line in lines:
         if line == lines[-1]:
-            print(line.strip(),end="")
+            print(line.strip(), end="")
         else:
             print(line.strip())
