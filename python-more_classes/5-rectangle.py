@@ -61,4 +61,3 @@ class Rectangle:
 
     def __del__(self) -> None:
         print("Bye rectangle...")
-
