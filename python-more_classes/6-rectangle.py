@@ -5,6 +5,7 @@
 class Rectangle:
     """this is rectangle class"""
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         if not isinstance(height, int):
             raise TypeError("height must be an integer")
@@ -64,4 +65,3 @@ class Rectangle:
     def __del__(self) -> None:
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
-
