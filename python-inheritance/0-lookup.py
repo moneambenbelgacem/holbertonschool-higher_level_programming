@@ -4,4 +4,5 @@
 
 def lookup(obj):
     """look up object"""
-    return dir(obj)
+    ls = []
+    return ls.append(dir(obj))
