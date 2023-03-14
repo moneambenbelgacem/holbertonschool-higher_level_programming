@@ -1,4 +1,2 @@
-/*show data bases
-*/
-
+-- code to show data base
 SHOW DATABASES
