@@ -1,4 +1,4 @@
-/**
-show data bases
+/*show data bases
 */
+
 SHOW DATABASES
