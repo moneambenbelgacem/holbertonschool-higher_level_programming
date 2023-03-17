@@ -1,2 +1,2 @@
 -- toinsert.jjj
-SELECT score, name FROM second_table ORDRE BY score DECS;
+SELECT score, name FROM second_table ORDER BY score DECS;
