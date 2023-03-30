@@ -129,4 +129,3 @@ class Rectangle (Base):
                 'id': self.id,
                 'height': self.height,
                 'width': self.width}
-    
