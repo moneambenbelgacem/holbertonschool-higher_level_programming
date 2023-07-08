@@ -1,9 +1,3 @@
 #!/bin/bash
 #function
-response=$(curl -s -L -o /dev/null -w "%{http_code}\n%{redirect_url}" "$1")
-
-redirect_count=$(grep -c "http://" <<< "$response")
-
-if [ "$redirect_count" -eq 1 ]; then
-  curl -s -L "$response"
-fi
+curl -sIL "$1" | grep -q "HTTP/.* 200" && curl -sL "$1"
