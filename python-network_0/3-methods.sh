@@ -1,3 +1,3 @@
 #!/bin/bash
-#function 
-curl -sI "$1" | awk '/Allow/ {print $2}'
+#function
+curl -s -X OPTIONS -i "$1" | awk '/Allow/ {print $2}'
